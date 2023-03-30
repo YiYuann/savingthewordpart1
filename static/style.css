@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: left;
+}
+
+body {
+  color: #6ca2f9; font-style: italic;
+}
+
+form {
+  color: #ff8080; 
+}
+
+body {
+background-color: #fcefd9;
+}
+
+.result {
+  color: #ff8080;  
+}

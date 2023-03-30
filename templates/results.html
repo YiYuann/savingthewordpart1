@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Helper - Results</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1 class="result">Student Helper - Results</h1>
+
+    <h2>People who can help you with {{ worst_sub }}</h2>
+    {%if help_list %}
+    <ul>
+        {% for student in help_list %}
+        <li>{{ student }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+  
+    <h2>People you can help with {{ best_sub }}</h2>
+    {% if can_help_list %}
+    <ul>
+        {% for student in can_help_list %}
+        <li>{{ student }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
+
+
+

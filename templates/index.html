@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Helper</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Student Helper</h1>
+    <form action="/" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <p> </p>
+      
+        <label for="best_sub">Your strongest Subject:</label>
+        <p> </p>
+        <label for="GP">GP </label>
+        <input type="radio" id="bGP" name="best_sub" value="GP">
+        <label for="Math">Math </label>
+        <input type="radio" id="bMath" name="best_sub" value="Math">
+        <label for="Physics">Physics </label>
+        <input type="radio" id="bPhysics" name="best_sub" value="Physics">
+        <label for="Computing">Computing </label>
+        <input type="radio" id="bComputing" name="best_sub" value="Computing">
+        <label for="Economics">Economics </label>
+        <input type="radio" id="bEconomics" name="best_sub" value="Economics">
+        <label for="Chinese">Chinese </label>
+        <input type="radio" id="bChinese" name="best_sub" value="Chinese"><br>
+        <p> </p>
+      
+        <label for="worst_sub">Your Weakest Subject:</label>
+        <p> </p>
+        <label for="GP">GP </label>
+        <input type="radio" id="wGP" name="worst_sub" value="GP">
+        <label for="Math">Math </label>
+        <input type="radio" id="wMath" name="worst_sub" value="Math">
+        <label for="Physics">Physics </label>
+        <input type="radio" id="wPhysics" name="worst_sub" value="Physics">
+        <label for="Computing">Computing </label>
+        <input type="radio" id="wComputing" name="worst_sub" value="Computing">
+        <label for="Economics">Economics </label>
+        <input type="radio" id="wEconomics" name="worst_sub" value="Economics">
+        <label for="Chinese">Chinese </label>
+        <input type="radio" id="wChinese" name="worst_sub" value="Chinese"><br>
+        <p> </p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
